@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "app_tarefas",
-    "slug": "app_tarefas",
+    "slug": "tasks-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ffb272e6-7f73-40b4-9ea1-50cab56a99b5"
+      }
+    },
+    "owner": "caiommc"
   }
 }
